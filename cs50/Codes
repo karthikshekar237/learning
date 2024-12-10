@@ -1,0 +1,110 @@
+$ vi hello.py
+============
+print("hello, world")
+============
+$ python hello.py
+
+************************
+
+$ vi hello.py
+============
+print("What's your name? ")
+input()
+print("hello, world")
+
+or
+
+input("What's your name? ")
+print("hello, David")
+============
+$ python hello.py
+
+************************
+
+$ vi hello.py
+============
+name = input("What's your name? ")
+print("hello,")
+print(name)
+============
+$ python hello.py
+
+************************
+
+$ vi hello.py
+============
+# #Ask user for their name
+name = input("What's your name? ")
+
+# #Say hello to user
+print("hello, " + name)
+============
+$ python hello.py
+
+************************
+
+
+$ vi hello.py
+============
+# #Ask user for their name
+name = input("What's your name? ")
+
+# #Say hello to user
+print(f"hello, {name}")
+============
+$ python hello.py
+
+************************
+
+print ('hello, "friend"')
+
+or
+
+print ("hello, \"friend\"")
+
+************************
+
+$ vi hello.py
+============
+# #Ask user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from str
+name = name.strip()
+
+# capitalize user name
+name = name.title()
+
+# #Say hello to user
+print(f"hello, {name}")
+============
+$ python hello.py
+
+************************
+
+$ vi hello.py
+============
+# #Ask user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from str and capitalize usernmae
+name = name.strip().title()
+
+# #Say hello to user
+print(f"hello, {name}")
+============
+$ python hello.py
+
+
+or 
+# #Ask user for their name
+name = input("What's your name? ").strip().title()
+
+# #Say hello to user
+print(f"hello, {name}")
+============
+$ python hello.py
+
+
+************************
+
